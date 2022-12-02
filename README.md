@@ -1,6 +1,6 @@
 # sf-murals Project - Backend
 
-This README is a two parter, one for the backend and one for the frontend which is [here] (https://github.com/SeldomseenSchweig/sf-murals-frontend/blob/main/README.md).
+This README is a two parter, one for the backend and one for the frontend which is [here](https://github.com/SeldomseenSchweig/sf-murals-frontend/blob/main/README.md).
 
 ## Purpose and Process
 
