@@ -4,7 +4,7 @@ This README is a two parter, one for the backend and one for the frontend which 
 
 ## Purpose and Process
 
-The purpose of this project was to create a site where thpeople who are interested in finding murals and public art San Francisco could find it, and add to it if they felt like it. The API that was used for this was from [SFdata]((https://data.sfgov.org/Culture-and-Recreation/StreetSmArts-Murals/wg8w-68vc)). This API had some issues, the first was that I was not getting the data I wanted from the call. So what I did was seeded my database with the data from the API. This also allowed me to add murals to the database, which is a part of this project. Go to the site, sign up, and find some murals in the city, take some pictures, and suggest some links to the pictures. I will be happy to add Them to the database.
+The purpose of this project was to create a site where thpeople who are interested in finding murals and public art San Francisco could find it, and add to it if they felt like it. The API that was used for this was from [SFdata]((https://data.sfgov.org/Culture-and-Recreation/StreetSmArts-Murals/wg8w-68vc). This API had some issues, the first was that I was not getting the data I wanted from the call. So what I did was seeded my database with the data from the API. This also allowed me to add murals to the database, which is a part of this project. Go to the site, sign up, and find some murals in the city, take some pictures, and suggest some links to the pictures. I will be happy to add Them to the database.
 
 ## Tools Used for the Backend
 
