@@ -48,7 +48,7 @@ router.post("/", ensureAdmin, async function (req, res, next) {
       return next(err);
     }
   });
-
+/// Change route to /suggestedMurals
   router.get("/adminMurals",ensureAdmin, async function (req, res, next) {
 
     try {
