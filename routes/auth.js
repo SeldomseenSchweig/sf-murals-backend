@@ -48,7 +48,6 @@ router.post("/token", async function (req, res, next) {
 
 router.post("/register", async function (req, res, next) {
   try {
-    console.log("Data from register:  ***********",req)
 
     const validator = jsonschema.validate(req.body, userRegisterSchema);
     if (!validator.valid) {
@@ -61,7 +60,8 @@ router.post("/register", async function (req, res, next) {
     }
 
     const newUser = await User.register({ ...req.body, isAdmin: false });
-    console.log("NEW USER     ******************",newUser);
+    console.log("Data from register:  ***********",newUser)
+
     const token = createToken(newUser);
     return res.status(201).json({ token });
   } catch (err) {
