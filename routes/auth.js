@@ -48,6 +48,8 @@ router.post("/token", async function (req, res, next) {
 
 router.post("/register", async function (req, res, next) {
   try {
+    console.log("Data from register:  ***********",req)
+
     const validator = jsonschema.validate(req.body, userRegisterSchema);
     if (!validator.valid) {
       let errs = validator.errors.map(e => e.stack.replace('instance.',''));
