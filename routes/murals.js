@@ -18,7 +18,6 @@ const router = express.Router();
 
 router.post("/", ensureAdmin, async function (req, res, next) {
     try {
-      console.log(req.body);
       const validator = jsonschema.validate(req.body, muralNewSchema);
       if (!validator.valid) {
         const errs = validator.errors.map(e => e.stack);
@@ -39,7 +38,6 @@ router.post("/", ensureAdmin, async function (req, res, next) {
         const errs = validator.errors.map(e => e.stack);
         throw new BadRequestError(errs);
       }
-      console.log("muralsuggest")
   
       const mural = await Mural.suggest(req.body);
       
