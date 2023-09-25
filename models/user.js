@@ -34,7 +34,7 @@ class User {
            WHERE username = $1`,
         [username],
     );
-
+    console.log("Query was made", result.rows[0]);
     const user = result.rows[0];
 
     if (user) {

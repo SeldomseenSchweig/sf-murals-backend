@@ -21,14 +21,17 @@ const { BadRequestError } = require("../expressError");
 
 router.post("/token", async function (req, res, next) {
   try {
+    console.log("insiode auth token ")
     const validator = jsonschema.validate(req.body, userAuthSchema);
     if (!validator.valid) {
       const errs = validator.errors.map(e => e.stack);
       throw new BadRequestError(errs);
     }
-
+    console.log("line 30 jhvhgyfcufg");
     const { username, password } = req.body;
+    console.log("+++++++++++",username, password);
     const user = await User.authenticate(username, password);
+    console.log("Afetr db called");
     const token = createToken(user);
     
     return res.json({ token });
