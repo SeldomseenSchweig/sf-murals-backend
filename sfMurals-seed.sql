@@ -81,7 +81,7 @@ VALUES
         ,('Eli Lippert','201 Middle Road','San Francisco','California',94124,'2014/15','African American Arts and Cultural District', -122.37948797799999, 37.733912015000044,'Hunters Point','')
         ,('Jeff Petersen','3215 21st Street','San Francisco','California',94110,'2009/10',NULL, -122.41937896299997, 37.756794988000024,'The Mission','')
         ,('Sirron Norris','3215 21st Street','San Francisco','California',94110,'2019',NULL, -122.41937896299997, 37.756794988000024,'The Mission','')
-        ,('Apex','7th Street & Market Street','San Francisco','California',94102,'2010/11',NULL, -122.41250991, 37.78048002500003,'South of Market', 'https://sfai.edu/images/made/uploads/immaterial/tumblr_pigw9edw7J1v7uqw4o1_1280_950_777.jpg')
+        ,('Apex','7th Street & Market Street','San Francisco','California',94102,'2010/11',NULL, -122.41250991, 37.78048002500003,'South of Market', '')
         ,('Eli Lippert','4700 3rd Street','San Francisco','California',94124,'2011/12','African American Arts and Cultural District', -122.39074403499995, 37.735597993000056,'Hunters Point','')
         ,('Shawn Bullen','600 Kearny Street','San Francisco','California',94108,'2013/14',NULL, -122.40445599099998, 37.79369401200006, 'Chinatown','')
         ,('Jet Martinez','925 Larkin Street','San Francisco','California',94109,'2009/10',NULL, -122.41846801799994, 37.78643901400005, 'Tenderloin','')
