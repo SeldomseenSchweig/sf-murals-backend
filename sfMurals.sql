@@ -1,5 +1,5 @@
-\echo 'Delete and recreate sfMurals db?'
-\prompt 'Return for yes or control-C to cancel > ' foo
+-- \echo 'Delete and recreate sfMurals db?'
+-- \prompt 'Return for yes or control-C to cancel > ' 
 
 DROP DATABASE sfMurals;
 CREATE DATABASE sfMurals;
